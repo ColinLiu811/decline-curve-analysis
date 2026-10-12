@@ -1,0 +1,18 @@
+Well 33053092100000
+  decline start 2021-03, 62 months fitted, last data 2026-07
+
+  exponential qi=   953.8/d  Di= 32.8%/yr eff  b=0.00  RMSE(ln q)=0.294  R2=0.812  AIC= -148.0
+  hyperbolic  qi=  1276.1/d  Di= 50.2%/yr eff  b=0.58  RMSE(ln q)=0.262  R2=0.850  AIC= -160.2
+  harmonic    qi=  1504.4/d  Di= 61.4%/yr eff  b=1.00  RMSE(ln q)=0.276  R2=0.833  AIC= -155.5
+
+  best model (AIC): hyperbolic
+  cum to date :      915,892 bbl
+  remaining   :      346,010 bbl  (31.6 yrs, ends at economic limit)
+  EUR         :    1,261,902 bbl
+
+                   qi  di_eff_annual      b  rmse_log      aic  cum_to_date   remaining          eur  years_remaining      end_reason
+model                                                                                                                                
+exponential   953.813          0.328  0.000     0.294 -148.003     915892.0  100263.203  1016155.203            7.863  economic limit
+hyperbolic   1276.134          0.502  0.581     0.262 -160.172     915892.0  346009.627  1261901.627           31.624  economic limit
+harmonic     1504.424          0.614  1.000     0.276 -155.475     915892.0  565598.142  1481490.142           39.124  economic limit
+plots written to examples/usa_153_95_8a_31_2h.png, examples/usa_153_95_8a_31_2h_residuals.png
