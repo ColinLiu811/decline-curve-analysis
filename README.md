@@ -6,7 +6,7 @@ data, forecast future rates, and estimate EUR (estimated ultimate recovery).
 Ships with real production data: 431 Bakken horizontal wells that came online in
 North Dakota between June 2020 and March 2021, with monthly history through
 July 2026, pulled from the
-[ND DMR monthly production reports](https://www.dmr.nd.gov/oilgas/mpr/).
+[ND DMR monthly production reports](https://www.dmr.nd.gov/oilgas/mprindex.asp).
 
 ![Rate and cumulative forecast for a Bakken well](examples/en_ruland_3328h6.png)
 
